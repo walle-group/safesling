@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Kabinet safesling</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h2>Safe sling</h2>
+    <h3><a href="https://safesling.2l.uz/">safesling.2l.uz/</a></h3>
+    <!-- main-->
+    <section class="main">
+        <button onclick="adddoc()">Hujjat qo'shish</button><br>
+        
+        <div class="adddoc" id="adddoc" style="display: none">
+            Qaysi hujjatga qo'shmoqchisiz
+            <!--<a href="adddocuement?name=docname">name doc</a>-->
+            ss_add_docs
+            <br><br>
+        </div>
+        
+        <a href="createdocument">Hujjat yaratish</a><br>
+        <a href="#docs">Hujjatlar</a><br>
+        <a href="https://user.2l.uz">Hujjatni tekshirish</a>
+        <br>        
+        <a href="#users">Ishtirokchilar</a><br>
+        <a href="adduser">Ishtirokchi qo'shish</a><br>
+    </section>
+    
+    <!-- statistika -->
+    <section class="stat" id="stat">
+        <p>Hujjatlar soni: ss_doc_count ta</p>
+        <p>Bloklar soni: ss_block_count ta</p>
+        <p>Ishtirokchilar soni : ss_user_count ta</p>
+    </section>
+    <!-- ishtirokchilar -->
+    <section class="users" id="users">
+        <h3>Ishtirokchilar</h3>
+        <div class="users2">
+            <!--<p><a href="#">boblobobsbnjbs</a></p>-->
+            ss_user_list
+        </div>
+    </section>
+    <!-- hujjatlar -->
+    <section class="docs" id="docs">
+        <h3>Hujjatlar</h3>
+        <div class="users2">
+            <!--<p><a href="#">boblobobsbnjbs</a> <a href="#">ko'rish</a></p>-->
+            ss_doc_list
+        </div>
+    </section>
+    
+    <script src="java.js"></script>
+</body>
+</html>

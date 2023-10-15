@@ -1,0 +1,156 @@
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+input, label {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 6px;
+}
+input[type=submit]{
+    background-color: #1a75e8;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+input[type=radio]{
+    display: inline-block;
+}
+.adddocument label {
+    display: inline-block;
+    margin-right: 20px;
+}
+button {
+    font-size: 20px;
+    padding: 6px 6px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.docelements .element {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+table td {
+    border: 1px solid black;
+}
+
+select {
+    height: 40px;
+    font-size: 20px;
+        margin-bottom: 20px;
+}
+
+.controlbutton {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+}
+table td {
+    width: 32%;
+}
+table input {
+    margin-top: 20px;
+}
+
+/* index */
+.main {
+    min-height: 350px;
+    height: 98vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main a, .main button {
+    border: none;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #1a75e8;
+    color: white;
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.stat {
+    margin-bottom: 100px;
+}
+
+.users {
+    margin-bottom: 100px;
+}
+.users2 p {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.userinfo table tr td:nth-child(1){
+    text-align: right;
+    padding: 6px;
+}
+
+#user-delete {
+    color: #a00;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.error {
+    color: red;
+}
+
+.adddoc a {
+    margin: 10px auto;
+    background-color: white !important;
+    color: black !important;
+    height: 20px;
+    padding: 6px 10px;
+}
+
+/* doc page*/
+.docpage .doc {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin: 20px;
+    font-size: 14px;
+}
+.docpage .doc p {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.docpage .doc div p:nth-child(1){
+    text-align: right;
+    padding-right: 10px;
+    border-right: 1px solid #aaa;
+}
+.docpage .doc div p:nth-child(2){
+    text-align: left;
+    margin-left: 10px;
+}

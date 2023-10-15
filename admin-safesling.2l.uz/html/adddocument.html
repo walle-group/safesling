@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Kabinet safesling</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <h3>Hujjat qo'shish</h3>
+    <h4>ss_doc_name</h4>
+    <form method="post" action="cabinet/adddocument">
+        <p>Hujjat elementlari</p>
+        <div class="docelements adddocument" id="docelements">
+            <input type="hidden" name="keycount" id="keycount" value="1">
+            <div class="element">
+                <p>Maydon nomi</p>
+                <p>Maydon turi</p>
+                <p>Maydon haqida</p>
+            </div>
+            <table>
+                <!--
+                <tr>
+                    <td>ddsdfdsfsdfsd</td>
+                    <td>Satr</td>
+                    <td><input type="text" name="keyname"></td>
+                </tr>
+                <tr>
+                    <td>ddsdfdsfsdfsd</td>
+                    <td>Mantiqiy</td>
+                    <td>
+                        <input type="radio" value="1" name="check" id="check1">
+                        <label for="check1">Rost</label>
+                        <input type="radio" value="0" name="check" id="check2">
+                        <label for="check2">Yolg'on</label>
+                    </td>
+                </tr>
+                -->
+                ss_docinput
+            </table>
+        </div>
+        <br><br>
+        <input type="submit" value="Yaratish">
+    </form>
+
+    <script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+input {
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    background-color: #1a75e8;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 30px;
+}
+
+.doc div {
+    display: inline-block;
+    width: 100%;
+}
+.doc div p {
+    width: 48%;
+    display: inline-block;
+}
+.doc div p:nth-child(1){
+    text-align: right;
+    margin-right: 10px;
+}
+.doc {
+    background-color: #f5f5f5;
+}

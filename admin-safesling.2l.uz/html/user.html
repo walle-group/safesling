@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Kabinet safesling</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h2>Ishtirokchi haqida ma'lumot</h2>
+    <div class="userinfo">
+        <p>Nomi: ss_name</p>
+        <p>endpoint url: ss_endpoint_url</p>
+        <div class="userinfo" id="userinfo">
+            <table>
+                <tr>
+                    <td>Holati:</td>
+                    <td>ss_iswork</td>
+                </tr>
+                <tr>
+                    <td>Hujjatlar soni:</td>
+                    <td>ss_doc_count</td>
+                </tr>
+                <tr>
+                    <td>Bloklar soni:</td>
+                    <td>ss_block_count</td>
+                </tr>
+                <tr>
+                    <td>Indekslash foizi:</td>
+                    <td>ss_indexed_persent</td>
+                </tr>
+                <tr>
+                    <td>O'zgargan bloklar</td>
+                    <td>ss_change_block</td>
+                </tr>
+            </table>        
+        </div>
+        <button>Tekshirish</button>
+        <br><br>
+        <button id="user-delete">Bu ishtirokchini <a href="?id=ss_user_id&delete=1">o'chirish</a></button>
+    </div>
+</body>
+</html>

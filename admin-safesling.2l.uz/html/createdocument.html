@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Kabinet safesling</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <h3>Hujjat yaratish</h3>
+    <p class="error">ss_error</p>
+    <form method="post" action="cabinet/createdocument">
+        <input type="text" name="docname" placeholder="Hujjat nomi" required>
+        <label for="docinfo">Hujjat haqida ma'lumot</label>
+        <textarea name="docinfo" id="docinfo" required></textarea>
+        <p>Hujjat elementlari</p>
+        <div class="docelements" id="docelements">
+            <input type="hidden" name="keycount" id="keycount" value="1">
+            <div class="element">
+                <p>Maydon nomi</p>
+                <p>Maydon turi</p>
+                <p>Maydon haqida</p>
+            </div>
+            <div class="element">
+                <input type="text" name="key1" required>
+                <select name="keytype1">
+                    <option value="string" selected>Satr</option>
+                    <option value="integer">Son</option>
+                    <option value="boolean">Mantiqiy</option>
+                </select>
+                <input type="text" name="keyinfo1" required>
+            </div>
+        </div>
+        <br><br>
+        <input type="submit" value="Yaratish">
+    </form>
+    <div class="controlbutton">
+        <button onclick="deleteend()">Oxirgi maydonni o'chirish</button>
+        <button onclick="addelement()">Maydon qo'shish</button>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
